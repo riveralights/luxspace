@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "assets/images/logo.png";
 
 export default function Sitemap() {
     return (
-        <section className="">
+        <section className="sitemap">
             <div className="border-t border-b border-gray-200 py-12 mt-16 px-4">
                 <div className="flex justify-center mb-8">
-                    <img src="images/content/logo.png" alt="Luxspace | Fulfill your house with beautiful furniture" />
+                    <img src={Logo} alt="Luxspace | Fulfill your house with beautiful furniture" />
                 </div>
                 <aside className="container mx-auto">
                     <div className="flex flex-wrap -mx-4 justify-center">

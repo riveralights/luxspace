@@ -10,7 +10,7 @@ import Footer from "assets/parts/Footer";
 export default function Home(props) {
     return (
         <>
-            <Header />
+            <Header theme="white" position="absolute" />
             <Hero />
             <BrowseRoom />
             <JustArrived />
